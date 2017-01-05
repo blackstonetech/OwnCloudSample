@@ -5,3 +5,4 @@ docker run --name mediawiki --link mysql:mysql -p 8080:80 -v $PWD/config/LocalSe
 
 ### Resources
 https://www.mediawiki.org/wiki/Manual:How_to_debug#Setting_up_a_debug_log_file
+

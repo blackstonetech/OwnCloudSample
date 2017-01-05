@@ -1,0 +1,381 @@
+
+
+Start request GET /index.php/Main_Page
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+COOKIE: wiki_wikiUserID=1; wiki_wikiUserName=Admin; wiki_wiki_session=f7f5f671685cb74311b39384df4f1b3d; wiki_wikiLoggedOut=1483558236; PHPSESSID=8a3b2002c8ab1bbe27a1190d21987cb8; mw_installer_session=ce389c4e57a6fc1bdec1a8990bd87cb1
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+USER-AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/602.3.12 (KHTML, like Gecko) Version/10.0.2 Safari/602.3.12
+ACCEPT-LANGUAGE: en-us
+ACCEPT-ENCODING: gzip, deflate
+CACHE-CONTROL: max-age=0
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+IP: 172.17.0.1
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Parser options key expired, touched 20170104191449, epoch 20170105175925, cached 20170105174852
+Article::view: doing uncached parse
+Parser cache options found.
+Saved in parser cache with key wiki-wiki:pcache:idhash:1-0!*!*!*!*!*!* and timestamp 20170105175141 and revision id 1
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 17:59:25 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_counter = page_counter + N WHERE page_id = 'X'
+DatabaseBase::query: Writes done: UPDATE `wikisite_stats` SET ss_total_views=ss_total_views+N
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /opensearch_desc.php
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+ACCEPT: */*
+ACCEPT-LANGUAGE: en-us
+CONNECTION: keep-alive
+ACCEPT-ENCODING: gzip, deflate
+USER-AGENT: com.apple.Safari.SearchHelper/12602.3.12.0.1 CFNetwork/807.2.14 Darwin/16.3.0 (x86_64)
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+IP: 172.17.0.1
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /index.php?title=Maine_Paig&action=submit
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from cookie
+EditPage::edit: enter
+EditPage::importFormData: Not a posted form.
+User::getBlockedStatus: checking...
+IP: 172.17.0.1
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+User: loading options for user 2 from override cache.
+Unstubbing $wgParser on call of $wgParser::getFreshParser from OutputPage::addWikiTextTitle
+Parser: using preprocessor: Preprocessor_DOM
+LoadBalancer::getConnection: using server mysql for group logpager
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+Article::fetchContentObject failed to find page data for title Maine Paig
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {create}
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {create}
+MWCryptRand::realGenerate: Generating cryptographic random bytes for User::getEditToken/MWCryptRand::generateHex/MWCryptRand::realGenerateHex/MWCryptRand::generate/MWCryptRand::realGenerate
+MWCryptRand::realGenerate: openssl_random_pseudo_bytes generated 16 bytes of strong randomness.
+MWCryptRand::realGenerate: 0 bytes of randomness leftover in the buffer.
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {create}
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /favicon.ico
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php?title=Maine_Paig&action=submit
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 17:52:11 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /index.php/Main_Page
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php?title=Maine_Paig&action=submit
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+IF-MODIFIED-SINCE: Thu, 05 Jan 2017 17:59:03 GMT
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+User: loading options for user 2 from override cache.
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client sent If-Modified-Since: 2017-01-05T17:59:03Z
+OutputPage::checkLastModified: effective Last-Modified: 2017-01-05T17:59:25Z
+OutputPage::checkLastModified: STALE, page=2017-01-04T19:14:49Z, user=2017-01-04T19:40:20Z, epoch=2017-01-05T17:59:25Z
+Article::view using parser cache: yes
+Parser options key expired, touched 20170104191449, epoch 20170105175925, cached 20170105175141
+Article::view: doing uncached parse
+Parser cache options found.
+Saved in parser cache with key wiki-wiki:pcache:idhash:1-0!*!*!*!*!*!* and timestamp 20170105175211 and revision id 1
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 17:59:25 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_counter = page_counter + N WHERE page_id = 'X'
+DatabaseBase::query: Writes done: UPDATE `wikisite_stats` SET ss_total_views=ss_total_views+N
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request POST /index.php?title=Maine_Paig&action=submit
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+CONTENT-LENGTH: 1659
+CACHE-CONTROL: max-age=0
+ORIGIN: http://192.168.3.149:8080
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+CONTENT-TYPE: multipart/form-data; boundary=----WebKitFormBoundaryQWjuHuJ6fzd2COQF
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php?title=Maine_Paig&action=submit
+ACCEPT-ENCODING: gzip, deflate
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+EditPage::edit: enter
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+EditPage::importFormData: Passed token check.
+User: loading options for user 2 from override cache.
+User::getBlockedStatus: checking...
+IP: 172.17.0.1
+Unstubbing $wgParser on call of $wgParser::preSaveTransform from WikitextContent::preSaveTransform
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+DatabaseBase::query: Writes done: INSERT IGNORE INTO `wikipage` (page_id,page_namespace,page_title,page_counter,page_restrictions,page_is_redirect,page_is_new,page_random,page_touched,page_latest,page_len) VALUES (NULL,'X')
+DatabaseBase::query: Writes done: INSERT INTO `wikitext` (old_id,old_text,old_flags) VALUES (NULL,'X')
+DatabaseBase::query: Writes done: INSERT INTO `wikirevision` (rev_id,rev_page,rev_text_id,rev_comment,rev_minor_edit,rev_user,rev_user_text,rev_timestamp,rev_deleted,rev_len,rev_parent_id,rev_sha1,rev_content_model,rev_content_format) VALUES (NULL,'X',NULL,NULL)
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_latest = 'X'
+DatabaseBase::query: Writes done: DELETE FROM `wikiredirect` WHERE rd_from = 'X'
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {edit,move}
+DatabaseBase::query: Writes done: INSERT INTO `wikirecentchanges` (rc_timestamp,rc_namespace,rc_title,rc_type,rc_source,rc_minor,rc_cur_id,rc_user,rc_user_text,rc_comment,rc_this_oldid,rc_last_oldid,rc_bot,rc_ip,rc_patrolled,rc_new,rc_old_len,rc_new_len,rc_deleted,rc_logid,rc_log_type,rc_log_action,rc_params,rc_id) VALUES ('X',NULL)
+DatabaseBase::query: Writes done: UPDATE `wikiuser` SET user_editcount=user_editcount+N WHERE user_id = 'X'
+DatabaseBase::query: Writes done: UPDATE `wikiuser` SET user_touched = 'X')
+WikiPage::doEditUpdates: No vary-revision, using prepared edit...
+Saved in parser cache with key wiki-wiki:pcache:idhash:15-0!*!*!*!*!*!* and timestamp 20170105175225 and revision id 17
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_links_updated = 'X'
+BacklinkCache::queryLinks: got results from DB
+BacklinkCache::queryLinks: got results from DB
+DatabaseBase::query: Writes done: DELETE FROM `wikiprotected_titles` WHERE pt_namespace = 'X'
+[cookie] setcookie: "wiki_wikiPostEditRevision17", "created", "1483639945", "/", "", "", ""
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_touched = 'X'
+BacklinkCache::partition: got from full result cache
+DatabaseBase::query: Writes done: INSERT IGNORE INTO `wikiwatchlist` (wl_user,wl_namespace,wl_title,wl_notificationtimestamp) VALUES ('X',NULL)
+OutputPage::sendCacheControl: private caching;  **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+DatabaseBase::query: Writes done: UPDATE `wikisite_stats` SET ss_total_edits=ss_total_edits+N,ss_total_pages=ss_total_pages+N
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {edit,move}
+DatabaseBase::query: Writes done: REPLACE INTO `wikisearchindex` (si_page,si_title,si_text) VALUES ('X')
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /index.php/Maine_Paig
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+CACHE-CONTROL: max-age=0
+UPGRADE-INSECURE-REQUESTS: 1
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php?title=Maine_Paig&action=submit
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710; wiki_wikiPostEditRevision17=created
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+User: loading options for user 2 from override cache.
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client did not send If-Modified-Since header
+Article::view using parser cache: yes
+Parser options key expired, touched 20170105175225, epoch 20170105180236, cached 20170105175225
+Article::view: doing uncached parse
+Parser cache options found.
+Saved in parser cache with key wiki-wiki:pcache:idhash:15-0!*!*!*!*!*!* and timestamp 20170105175225 and revision id 17
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+Title::getRestrictionTypes: applicable restrictions to [[Maine Paig]] are {edit,move}
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 18:02:36 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_counter = page_counter + N WHERE page_id = 'X'
+DatabaseBase::query: Writes done: UPDATE `wikisite_stats` SET ss_total_views=ss_total_views+N
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /favicon.ico
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php/Maine_Paig
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 17:52:26 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
+
+
+Start request GET /index.php/Main_Page
+HTTP HEADERS:
+HOST: 192.168.3.149:8080
+CONNECTION: keep-alive
+USER-AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+ACCEPT: image/webp,image/*,*/*;q=0.8
+DNT: 1
+REFERER: http://192.168.3.149:8080/index.php/Maine_Paig
+ACCEPT-ENCODING: gzip, deflate, sdch
+ACCEPT-LANGUAGE: en-US,en;q=0.8
+COOKIE: wiki_wikiUserID=2; wiki_wikiUserName=Bbrooks; wiki_wikiToken=e28d6cc7a200cce006be9a3eeeb57ebd; wiki_wiki_session=999b7fe51c911a5ac9e10457496f0710
+IF-MODIFIED-SINCE: Thu, 05 Jan 2017 17:59:25 GMT
+[caches] main: EmptyBagOStuff, message: SqlBagOStuff, parser: SqlBagOStuff
+[caches] LocalisationCache: using store LCStoreDB
+Fully initialised
+Connected to database 0 at mysql
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+[ContentHandler] Created handler for wikitext: WikitextContentHandler
+User: cache miss for user 2
+User: loading options for user 2 from database.
+User: logged in from session
+User: loading options for user 2 from override cache.
+Connected to database 0 at mysql
+MessageCache::load: Loading en... got from global cache
+Unstubbing $wgParser on call of $wgParser::firstCallInit from MessageCache::getParser
+Parser: using preprocessor: Preprocessor_DOM
+Unstubbing $wgLang on call of $wgLang::_unstub from ParserOptions::__construct
+OutputPage::checkLastModified: client sent If-Modified-Since: 2017-01-05T17:59:25Z
+OutputPage::checkLastModified: effective Last-Modified: 2017-01-05T18:02:36Z
+OutputPage::checkLastModified: STALE, page=2017-01-04T19:14:49Z, user=2017-01-05T17:52:30Z, epoch=2017-01-05T18:02:36Z
+Article::view using parser cache: yes
+Parser options key expired, touched 20170104191449, epoch 20170105180236, cached 20170105175211
+Article::view: doing uncached parse
+Parser cache options found.
+Saved in parser cache with key wiki-wiki:pcache:idhash:1-0!*!*!*!*!*!* and timestamp 20170105175226 and revision id 1
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikiobjectcache` (keyname,value,exptime) VALUES ('X')
+Title::getRestrictionTypes: applicable restrictions to [[Main Page]] are {edit,move}
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+DatabaseBase::query: Writes done: REPLACE INTO `wikimsg_resource` (mr_resource,mr_lang,mr_blob,mr_timestamp) VALUES ('X')
+OutputPage::sendCacheControl: private caching; Thu, 05 Jan 2017 18:02:36 GMT **
+LoadBalancer::reuseConnection: this connection was not opened as a foreign connection
+DatabaseBase::query: Writes done: UPDATE `wikipage` SET page_counter = page_counter + N WHERE page_id = 'X'
+DatabaseBase::query: Writes done: UPDATE `wikisite_stats` SET ss_total_views=ss_total_views+N
+Request ended normally
+wfClientAcceptsGzip: client accepts gzip.
+wfGzipHandler() is compressing output
